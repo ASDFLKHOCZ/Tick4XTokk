@@ -8,7 +8,7 @@ namespace WindowsFormsApp2
 {
     public class gameLog
     {
-        public static int SideSize = 5;
+        public static int SideSize = 4;
         public static int[,] buttonlist = new int[SideSize, SideSize]; //создание масива 4x4
         public static int PlayermoveX = 0; //переменная для проверки хода игрока x
         public static int ScoreX = 0; //переменная для счета побед игрока x

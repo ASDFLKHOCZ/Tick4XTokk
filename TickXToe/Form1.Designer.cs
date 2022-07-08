@@ -46,6 +46,7 @@
             this.butt44 = new System.Windows.Forms.Button();
             this.buttReset = new System.Windows.Forms.Button();
             this.ArrayLabel = new System.Windows.Forms.Label();
+            this.WinLabel = new System.Windows.Forms.Label();
             this.SuspendLayout();
             // 
             // butt11
@@ -106,6 +107,7 @@
             this.butt22.TabIndex = 5;
             this.butt22.Text = "button6";
             this.butt22.UseVisualStyleBackColor = true;
+            this.butt22.Click += new System.EventHandler(this.butt22_Click);
             // 
             // butt23
             // 
@@ -115,6 +117,7 @@
             this.butt23.TabIndex = 6;
             this.butt23.Text = "button7";
             this.butt23.UseVisualStyleBackColor = true;
+            this.butt23.Click += new System.EventHandler(this.butt23_Click);
             // 
             // butt24
             // 
@@ -124,6 +127,7 @@
             this.butt24.TabIndex = 7;
             this.butt24.Text = "button8";
             this.butt24.UseVisualStyleBackColor = true;
+            this.butt24.Click += new System.EventHandler(this.butt24_Click);
             // 
             // butt31
             // 
@@ -143,6 +147,7 @@
             this.butt32.TabIndex = 9;
             this.butt32.Text = "button10";
             this.butt32.UseVisualStyleBackColor = true;
+            this.butt32.Click += new System.EventHandler(this.butt32_Click);
             // 
             // butt33
             // 
@@ -152,6 +157,7 @@
             this.butt33.TabIndex = 10;
             this.butt33.Text = "button11";
             this.butt33.UseVisualStyleBackColor = true;
+            this.butt33.Click += new System.EventHandler(this.butt33_Click);
             // 
             // butt34
             // 
@@ -161,6 +167,7 @@
             this.butt34.TabIndex = 11;
             this.butt34.Text = "button12";
             this.butt34.UseVisualStyleBackColor = true;
+            this.butt34.Click += new System.EventHandler(this.butt34_Click);
             // 
             // butt41
             // 
@@ -180,6 +187,7 @@
             this.butt42.TabIndex = 13;
             this.butt42.Text = "button14";
             this.butt42.UseVisualStyleBackColor = true;
+            this.butt42.Click += new System.EventHandler(this.butt42_Click);
             // 
             // butt43
             // 
@@ -189,6 +197,7 @@
             this.butt43.TabIndex = 14;
             this.butt43.Text = "button15";
             this.butt43.UseVisualStyleBackColor = true;
+            this.butt43.Click += new System.EventHandler(this.butt43_Click);
             // 
             // butt44
             // 
@@ -198,6 +207,7 @@
             this.butt44.TabIndex = 15;
             this.butt44.Text = "button16";
             this.butt44.UseVisualStyleBackColor = true;
+            this.butt44.Click += new System.EventHandler(this.butt44_Click);
             // 
             // buttReset
             // 
@@ -218,11 +228,21 @@
             this.ArrayLabel.TabIndex = 17;
             this.ArrayLabel.Text = "label1";
             // 
+            // WinLabel
+            // 
+            this.WinLabel.AutoSize = true;
+            this.WinLabel.Location = new System.Drawing.Point(382, 373);
+            this.WinLabel.Name = "WinLabel";
+            this.WinLabel.Size = new System.Drawing.Size(44, 16);
+            this.WinLabel.TabIndex = 18;
+            this.WinLabel.Text = "label1";
+            // 
             // GameForm
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 16F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(685, 398);
+            this.Controls.Add(this.WinLabel);
             this.Controls.Add(this.ArrayLabel);
             this.Controls.Add(this.buttReset);
             this.Controls.Add(this.butt44);
@@ -268,6 +288,7 @@
         private System.Windows.Forms.Button butt44;
         private System.Windows.Forms.Button buttReset;
         public System.Windows.Forms.Label ArrayLabel;
+        public System.Windows.Forms.Label WinLabel;
     }
 }
 
