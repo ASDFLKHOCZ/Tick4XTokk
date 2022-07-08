@@ -8,7 +8,7 @@ using System.Text;
 using System.Threading.Tasks;
 using System.Windows.Forms;
 using System.Diagnostics;
-
+//if you want to play, you need press "reset" button every tur/r/n
 namespace WindowsFormsApp2
 {
     public partial class GameForm : Form
